@@ -1,0 +1,16 @@
+E:\Projects\securityalarm\bin\Debug\net5.0\securityalarm.exe
+E:\Projects\securityalarm\bin\Debug\net5.0\securityalarm.deps.json
+E:\Projects\securityalarm\bin\Debug\net5.0\securityalarm.runtimeconfig.json
+E:\Projects\securityalarm\bin\Debug\net5.0\securityalarm.runtimeconfig.dev.json
+E:\Projects\securityalarm\bin\Debug\net5.0\securityalarm.dll
+E:\Projects\securityalarm\bin\Debug\net5.0\ref\securityalarm.dll
+E:\Projects\securityalarm\bin\Debug\net5.0\securityalarm.pdb
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.csproj.AssemblyReference.cache
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.AssemblyInfoInputs.cache
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.AssemblyInfo.cs
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.csproj.CoreCompileInputs.cache
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.dll
+E:\Projects\securityalarm\obj\Debug\net5.0\ref\securityalarm.dll
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.pdb
+E:\Projects\securityalarm\obj\Debug\net5.0\securityalarm.genruntimeconfig.cache

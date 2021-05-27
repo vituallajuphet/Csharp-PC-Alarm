@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\securityalarm\\securityalarm.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\securityalarm\\securityalarm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\securityalarm\\securityalarm.csproj",
+        "projectName": "securityalarm",
+        "projectPath": "E:\\Projects\\securityalarm\\securityalarm.csproj",
+        "packagesPath": "C:\\Users\\Jupiter\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\securityalarm\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jupiter\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net4.8"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net4.8",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net4.8",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

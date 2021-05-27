@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NtKHUDK4GaOaX43WXYWw3+/Osep9K6Dz+r9Q+J33iJBhxsOlHdd+X5xsVD71KXl3HXdOSNjwXUXA6NiiRXWyvw==",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\securityalarm\\securityalarm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.0\\microsoft.netframework.referenceassemblies.net48.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

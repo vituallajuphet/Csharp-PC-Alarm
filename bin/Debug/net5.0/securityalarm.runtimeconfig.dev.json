@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Jupiter\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Jupiter\\.nuget\\packages"
+    ]
+  }
+}
