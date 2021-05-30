@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "NtKHUDK4GaOaX43WXYWw3+/Osep9K6Dz+r9Q+J33iJBhxsOlHdd+X5xsVD71KXl3HXdOSNjwXUXA6NiiRXWyvw==",
+  "dgSpecHash": "QQt2LTUAkwp+HV1HkuR96YwMXk949cNYVDmUp4pbp293wmldj5VTMQzIHzEOmyk5/7X0BtnHi8E2bWaiK6KXwA==",
   "success": true,
   "projectFilePath": "E:\\Projects\\securityalarm\\securityalarm.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.identitymodel.logging\\1.1.2\\microsoft.identitymodel.logging.1.1.2.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.1.2\\microsoft.identitymodel.tokens.5.1.2.nupkg.sha512",
     "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
-    "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.0\\microsoft.netframework.referenceassemblies.net48.1.0.0.nupkg.sha512"
+    "C:\\Users\\Jupiter\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.0\\microsoft.netframework.referenceassemblies.net48.1.0.0.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\sendgrid\\9.23.2\\sendgrid.9.23.2.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\starkbank-ecdsa\\1.3.1\\starkbank-ecdsa.1.3.1.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.1.2\\system.identitymodel.tokens.jwt.5.1.2.nupkg.sha512",
+    "C:\\Users\\Jupiter\\.nuget\\packages\\twilio\\5.61.0\\twilio.5.61.0.nupkg.sha512"
   ],
   "logs": []
 }

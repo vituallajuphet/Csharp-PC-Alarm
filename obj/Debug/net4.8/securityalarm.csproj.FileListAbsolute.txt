@@ -7,3 +7,13 @@ E:\Projects\securityalarm\obj\Debug\net4.8\securityalarm.AssemblyInfo.cs
 E:\Projects\securityalarm\obj\Debug\net4.8\securityalarm.csproj.CoreCompileInputs.cache
 E:\Projects\securityalarm\obj\Debug\net4.8\securityalarm.exe
 E:\Projects\securityalarm\obj\Debug\net4.8\securityalarm.pdb
+E:\Projects\securityalarm\bin\Debug\net4.8\RestSharp.dll
+E:\Projects\securityalarm\obj\Debug\net4.8\securityalarm.csproj.CopyComplete
+E:\Projects\securityalarm\bin\Debug\net4.8\Newtonsoft.Json.dll
+E:\Projects\securityalarm\bin\Debug\net4.8\SendGrid.dll
+E:\Projects\securityalarm\bin\Debug\net4.8\StarkbankEcdsa.dll
+E:\Projects\securityalarm\bin\Debug\net4.8\Microsoft.IdentityModel.Logging.dll
+E:\Projects\securityalarm\bin\Debug\net4.8\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\securityalarm\bin\Debug\net4.8\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\securityalarm\bin\Debug\net4.8\Twilio.dll
+E:\Projects\securityalarm\obj\Debug\net4.8\securityalarm.exe.config
