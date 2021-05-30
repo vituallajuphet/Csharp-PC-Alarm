@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Timers;
+using System.Runtime.InteropServices; 
 
 
 namespace securityalarm
@@ -13,15 +14,14 @@ namespace securityalarm
         static void Main(string[] args)
         {   
             string accountSid ="ACfe0887a8af81c5932450f90c86282412";
-            string authToken = "56f7167f062575fc838ad777dacccad4";
+            string authToken = "28484bfb7a88bcf06fd2ab107efe548f";
             string myNumber = "+12182617400";    
         
             var sms = new Sms(accountSid, authToken, myNumber);
-        
-            string toNumber = "+639058927403";
-            string smsBody = "Hey Juphet, your test is on. \n\nRunning Application:";
-
+            sms.msgBody = "Hey Juphet, your computer is running... \n\n Running Applications: ";
+            sms.tonumber = "+6309058927403";
             
+            // get running process of computer...
             var processes = Process.GetProcesses()
             .Where(p => (long)p.MainWindowHandle != 0)
             .ToArray();
@@ -29,14 +29,19 @@ namespace securityalarm
             foreach (var p in processes)
             {
                 string appName = p.ToString().Replace("System.Diagnostics.Process ", "");
-
-                smsBody += "\n"+appName;
+                sms.msgBody += "\n"+appName;
             }
 
-            // var message = sms.sendSms(smsBody, toNumber);
+            // send notification
+            var response =  sms.sendSms();
 
+            if(response.Status.ToString() == "queued"){
+                Console.WriteLine("sent...");
+            }
+
+            Console.WriteLine("Sent..");
+            // run timer
             runTimer();
-
 
             Console.Read();
         }
@@ -57,8 +62,12 @@ namespace securityalarm
 
         private static void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            Console.WriteLine("The Elapsed event was raised at {0}", e.SignalTime);
+
+            Console.WriteLine("Time elapsed: {0}", e.SignalTime);
         }
 
+        // logoff 
+        [DllImport("user32")]
+        public static extern void LockWorkStation();
     }
 }

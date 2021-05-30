@@ -1,6 +1,4 @@
 using System;
-using System.Net.Mail;
-using System.Net;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
 
@@ -12,34 +10,48 @@ namespace securityalarm
         public string authToken {get; private set;}
         public string fromNumber {get; private set;}
 
+        private string messageBody;
+        private string toNumber;
+
         public Sms (string accID, string accAuth, string accFromNumber) {
-            accountSID = accID;
-            authToken = accAuth;
-            fromNumber = accFromNumber;
+            this.accountSID = accID;
+            this.authToken = accAuth;
+            this.fromNumber = accFromNumber;
         }
 
-        public MessageResource sendSms(string body, string toNumber){
+        public string msgBody{
+            get{return this.messageBody;}
+            set{this.messageBody = value;}
+        }
+
+        public string tonumber{
+            get{return this.toNumber;}
+            set{this.toNumber = value;}
+        }
+
+        public MessageResource sendSms(){
         
             MessageResource message = null;
-
+            Console.WriteLine("Sending...");
             try
             {
                 TwilioClient.Init(accountSID, authToken);
-                Console.WriteLine("Sending...");
 
                 message = MessageResource.Create(
-                    body: body,
-                    from: new Twilio.Types.PhoneNumber(fromNumber),
-                    to: new Twilio.Types.PhoneNumber(toNumber)
+                    body: this.msgBody,
+                    from: new Twilio.Types.PhoneNumber(this.fromNumber),
+                    to: new Twilio.Types.PhoneNumber(this.toNumber)
                 );
 
             }
             catch (System.Exception e)
             {
                 Console.WriteLine(e);
+                Console.WriteLine("Sending failed!");
             }
             
             return message;
         }
+
     }
 }
